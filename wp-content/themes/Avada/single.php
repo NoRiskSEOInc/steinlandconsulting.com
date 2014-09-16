@@ -244,7 +244,7 @@
 					<?php endif; ?>
 					<?php if($data['sharing_linkedin']): ?>
 					<li class="linkedin">
-						<a href="http://linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" target="_blank"<?php echo $nofollow; ?>>
+						<a href="http://linkedin.com/shareArticle%3Fmini=true&amp;url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" target="_blank"<?php echo $nofollow; ?>>
 							LinkedIn
 						</a>
 						<div class="popup">
